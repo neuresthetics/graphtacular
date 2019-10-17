@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns:viz="http:///www.gexf.net/1.1draft/viz" version="1.1" xmlns="http://www.gexf.net/1.1draft">
+<meta lastmodifieddate="2019-06-10+17:33">
+<creator>Jason Burns</creator>
+</meta>
+<graph defaultedgetype="undirected" idtype="string" type="static">
+<nodes count="10">
+<node id="0.0" label="45e9c9ad-9a03-4722-a9a8-d79927464a0a"/>
+<node id="1.0" label="18b94d8c-de6a-42ca-bdb5-8ceba5e8ab9c"/>
+<node id="2.0" label="019e570d-c5ba-4042-acb8-9e15a681c6cd"/>
+<node id="3.0" label="e89cc0a5-d7d9-4f86-a229-727f24de05e0"/>
+<node id="4.0" label="1dcea063-29b2-4f8c-a59c-d61315f50e1b"/>
+<node id="5.0" label="8aa5662f-632a-4e85-bb04-2bcddb4d1b81"/>
+<node id="6.0" label="dc7d9531-8739-4268-99a4-ea020786f3ae"/>
+<node id="7.0" label="2f256d8c-c925-47a2-98aa-0710cb031529"/>
+<node id="8.0" label="d781e2c8-4057-42f7-96ea-f4d521763a43"/>
+<node id="9.0" label="cb610169-46aa-433a-af7f-8b5165d8e008"/>
+</nodes>
+<edges count="240">
+<edge id="0" source="0.0" target="4.0"  weight="1.0" />
+<edge id="1" source="0.0" target="6.0"  weight="1.0" />
+<edge id="2" source="0.0" target="9.0"  weight="1.0" />
+<edge id="3" source="1.0" target="4.0"  weight="1.0" />
+<edge id="4" source="1.0" target="5.0"  weight="1.0" />
+<edge id="5" source="1.0" target="7.0"  weight="1.0" />
+<edge id="6" source="2.0" target="5.0"  weight="1.0" />
+<edge id="7" source="2.0" target="6.0"  weight="1.0" />
+<edge id="8" source="2.0" target="8.0"  weight="1.0" />
+<edge id="9" source="3.0" target="7.0"  weight="1.0" />
+<edge id="10" source="3.0" target="8.0"  weight="1.0" />
+<edge id="11" source="3.0" target="9.0"  weight="1.0" />
+<edge id="12" source="4.0" target="0.0"  weight="1.0" />
+<edge id="13" source="4.0" target="1.0"  weight="1.0" />
+<edge id="14" source="4.0" target="5.0"  weight="1.0" />
+<edge id="15" source="4.0" target="6.0"  weight="1.0" />
+<edge id="16" source="4.0" target="7.0"  weight="1.0" />
+<edge id="17" source="4.0" target="9.0"  weight="1.0" />
+<edge id="18" source="5.0" target="1.0"  weight="1.0" />
+<edge id="19" source="5.0" target="2.0"  weight="1.0" />
+<edge id="20" source="5.0" target="4.0"  weight="1.0" />
+<edge id="21" source="5.0" target="6.0"  weight="1.0" />
+<edge id="22" source="5.0" target="7.0"  weight="1.0" />
+<edge id="23" source="5.0" target="8.0"  weight="1.0" />
+<edge id="24" source="6.0" target="0.0"  weight="1.0" />
+<edge id="25" source="6.0" target="2.0"  weight="1.0" />
+<edge id="26" source="6.0" target="4.0"  weight="1.0" />
+<edge id="27" source="6.0" target="5.0"  weight="1.0" />
+<edge id="28" source="6.0" target="8.0"  weight="1.0" />
+<edge id="29" source="6.0" target="9.0"  weight="1.0" />
+<edge id="30" source="7.0" target="1.0"  weight="1.0" />
+<edge id="31" source="7.0" target="3.0"  weight="1.0" />
+<edge id="32" source="7.0" target="4.0"  weight="1.0" />
+<edge id="33" source="7.0" target="5.0"  weight="1.0" />
+<edge id="34" source="7.0" target="8.0"  weight="1.0" />
+<edge id="35" source="7.0" target="9.0"  weight="1.0" />
+<edge id="36" source="8.0" target="2.0"  weight="1.0" />
+<edge id="37" source="8.0" target="3.0"  weight="1.0" />
+<edge id="38" source="8.0" target="5.0"  weight="1.0" />
+<edge id="39" source="8.0" target="6.0"  weight="1.0" />
+<edge id="40" source="8.0" target="7.0"  weight="1.0" />
+<edge id="41" source="8.0" target="9.0"  weight="1.0" />
+<edge id="42" source="9.0" target="0.0"  weight="1.0" />
+<edge id="43" source="9.0" target="3.0"  weight="1.0" />
+<edge id="44" source="9.0" target="4.0"  weight="1.0" />
+<edge id="45" source="9.0" target="6.0"  weight="1.0" />
+<edge id="46" source="9.0" target="7.0"  weight="1.0" />
+<edge id="47" source="9.0" target="8.0"  weight="1.0" />
+</edges>
+</graph>
+</gexf>
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphtacular", "Graphtacular\Graphtacular.csproj", "{8CA5EE37-2ED1-4252-B2BA-9E8123103662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUT", "XUT\XUT.csproj", "{746F2404-2825-4596-9B84-B9C89564B7B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA5EE37-2ED1-4252-B2BA-9E8123103662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA5EE37-2ED1-4252-B2BA-9E8123103662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA5EE37-2ED1-4252-B2BA-9E8123103662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA5EE37-2ED1-4252-B2BA-9E8123103662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746F2404-2825-4596-9B84-B9C89564B7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746F2404-2825-4596-9B84-B9C89564B7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746F2404-2825-4596-9B84-B9C89564B7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746F2404-2825-4596-9B84-B9C89564B7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9088E6A0-2CBC-45C3-B8EB-22B41AE4975D}
+	EndGlobalSection
+EndGlobal
