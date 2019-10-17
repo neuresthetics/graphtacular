@@ -1,8 +1,8 @@
 # GRAPHTACULAR
 
-![Render](https://github.com/Neuresthetics/graphtacular/blob/master/assets/screenshot_100214.png)<br>
+![Render](https://github.com/jasonb315/graphtacular/blob/master/assets/screenshot_100214.png)<br>
 
-![Whiteboard](https://github.com/Neuresthetics/graphtacular/blob/master/assets/WB00.jpg) <br>
+![Whiteboard](https://github.com/jasonb315/graphtacular/blob/master/assets/WB00.jpg) <br>
 
 This Graph has Vertices which have Kernels which are given Strands.
 
@@ -86,12 +86,12 @@ switch (ss[0])
 Kernels are used to generate pre-programmed motifs. The above strand passed to a single seed Vertex produces the following matrix and graph:
 
 ## GEXF - save graph to file
-You can view saved [graphs](https://github.com/Neuresthetics/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://gephi.org/gexf/format/index.html) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
+You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://gephi.org/gexf/format/index.html) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
 
 ## First rendering of a kernel generated motif:
 
-![Flower](https://github.com/Neuresthetics/graphtacular/blob/master/assets/FirstChainRun.JPG) <br>
-![Flower Gephi](https://github.com/Neuresthetics/graphtacular/blob/master/assets/FirstGephiCaptureFlower.JPG) <br>
+![Flower](https://github.com/jasonb315/graphtacular/blob/master/assets/FirstChainRun.JPG) <br>
+![Flower Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/FirstGephiCaptureFlower.JPG) <br>
 
 ## Driving clusters from the outside:
 
@@ -99,18 +99,18 @@ Operations on sets of Vertices
 
 This is a logarithmic cluster with edges reflecting the repetative global split
 
-![Logarithmic Cluster](https://github.com/Neuresthetics/graphtacular/blob/master/assets/LogarithmicCluster.JPG) <br>
-![Logarithmic Cluster Gephi](https://github.com/Neuresthetics/graphtacular/blob/master/assets/LogarithmicClusterGephi.JPG) <br>
+![Logarithmic Cluster](https://github.com/jasonb315/graphtacular/blob/master/assets/LogarithmicCluster.JPG) <br>
+![Logarithmic Cluster Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/LogarithmicClusterGephi.JPG) <br>
 
 ## Driving clusters from the inside:
 
 Fibonacci:
 
-![Logarithmic Cluster Gephi](https://github.com/Neuresthetics/graphtacular/blob/master/assets/Fibonacci.JPG) <br>
+![Logarithmic Cluster Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/Fibonacci.JPG) <br>
 
-Other pictures in [assets >>>](https://github.com/Neuresthetics/graphtacular/tree/master/assets)
+Other pictures in [assets >>>](https://github.com/jasonb315/graphtacular/tree/master/assets)
 
-Additional graphs not pictured in [graphs >>>](https://github.com/Neuresthetics/graphtacular/tree/master/Graphtacular/Graphtacular/Saves)
+Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves)
 
 ***
 
