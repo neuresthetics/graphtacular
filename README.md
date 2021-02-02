@@ -160,11 +160,3 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 NOTE: Driver, Kernel, and GEXF file save prototypes are functional but incomplete, so their methods are not documented yet.
 
 ***
-
-## Change Log
-
-17MAY2019 repo migration to Neuresthetics
-
-30MAY2019 clustering, seeding, gexp output(for rendering), readme overhaul
-
-11JUN2019 considering taking what I've learned so far and rewriting the entire thing in Python, then transpiling down to C for speed.
