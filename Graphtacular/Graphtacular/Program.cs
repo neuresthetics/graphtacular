@@ -14,7 +14,7 @@ namespace Graphtacular
             Console.ForegroundColor = ConsoleColor.Green;
 
             Graph graph = new Graph();
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 200; i++)
             {
                 graph.AddStrandVertex();
             }
