@@ -4,11 +4,14 @@
 
 ![Whiteboard](https://github.com/jasonb315/graphtacular/blob/master/assets/WB00.jpg) <br>
 
+go to [TESTS](https://github.com/anoumenon/graphtacular/blob/master/Graphtacular/XUT/UnitTest1.cs) <br>
+
+
 This Graph has Vertices which have Kernels which are given Strands.
 
-Strands passed into Kernels, which contain a refrence to the Vertex that are inside.
+Strands passed into Kernels, which contain a reference to the Vertex that are inside.
 
-Vertices have refrences to the matrix they are inside.
+Vertices have references to the matrix they are inside.
 
 So a Kernel can operate in terms of all the Vertices in the graph it's in.
 
