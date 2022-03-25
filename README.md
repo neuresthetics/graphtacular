@@ -89,7 +89,7 @@ switch (ss[0])
 Kernels are used to generate pre-programmed motifs. The above strand passed to a single seed Vertex produces the following matrix and graph:
 
 ## GEXF - save graph to file
-You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://gephi.org/gexf/format/index.html) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
+You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://github.com/neuresthetics/graphtacular/blob/master/Graphtacular/Graphtacular/Classes/Gexf.cs) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
 
 ## First rendering of a kernel generated motif:
 
