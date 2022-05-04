@@ -115,7 +115,7 @@ Other pictures in [assets >>>](https://github.com/jasonb315/graphtacular/tree/ma
 
 Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves)
 
-***
+<!-- ***
 
 ## METHODS
 
@@ -163,3 +163,4 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 NOTE: Driver, Kernel, and GEXF file save prototypes are functional but incomplete, so their methods are not documented yet.
 
 ***
+ -->
