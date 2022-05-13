@@ -4,8 +4,6 @@
 
 ![Whiteboard](https://github.com/jasonb315/graphtacular/blob/master/assets/WB00.jpg) <br>
 
-go to [TESTS](https://github.com/anoumenon/graphtacular/blob/master/Graphtacular/XUT/UnitTest1.cs) <br>
-
 
 This Graph has Vertices which have Kernels which are given Strands.
 
@@ -119,7 +117,9 @@ The big round one has a look feel of a wrinkly brain given its modular shape scr
 
 Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves)
 
-<!-- ***
+- go to [TESTS](https://github.com/anoumenon/graphtacular/blob/master/Graphtacular/XUT/UnitTest1.cs) <br>
+
+***
 
 ## METHODS
 
@@ -163,8 +163,3 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 | NondirectionalClusteringCoefficient | measures how connected a Vertex's neightobrs are to eachother | O(1) | O(1) | Vertex | int |
 
 ***
-
-NOTE: Driver, Kernel, and GEXF file save prototypes are functional but incomplete, so their methods are not documented yet.
-
-***
- -->
