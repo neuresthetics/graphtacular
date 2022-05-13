@@ -88,30 +88,34 @@ switch (ss[0])
 
 Kernels are used to generate pre-programmed motifs. The above strand passed to a single seed Vertex produces the following matrix and graph:
 
-## GEXF - save graph to file
-You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://github.com/neuresthetics/graphtacular/blob/master/Graphtacular/Graphtacular/Classes/Gexf.cs) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
-
-## First rendering of a kernel generated motif:
-
 ![Flower](https://github.com/jasonb315/graphtacular/blob/master/assets/FirstChainRun.JPG) <br>
 ![Flower Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/FirstGephiCaptureFlower.JPG) <br>
 
-## Driving clusters from the outside:
+## GEXF - save graph to file
+You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://github.com/neuresthetics/graphtacular/blob/master/Graphtacular/Graphtacular/Classes/Gexf.cs) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
 
-Operations on sets of Vertices
+### Building clusters from the outside:
+
+Operations on sets of Vertices in clumps from the outside tends to produce a more geologcal or crystal shapes?
 
 This is a logarithmic cluster with edges reflecting the repetative global split
 
 ![Logarithmic Cluster](https://github.com/jasonb315/graphtacular/blob/master/assets/LogarithmicCluster.JPG) <br>
 ![Logarithmic Cluster Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/LogarithmicClusterGephi.JPG) <br>
 
-## Driving clusters from the inside:
+looks feel kind of like ice, inorganic?
+
+### Driving clusters from the inside:
 
 Fibonacci:
 
 ![Logarithmic Cluster Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/Fibonacci.JPG) <br>
 
+look feel has more body, more life?
+
 Other pictures in [assets >>>](https://github.com/jasonb315/graphtacular/tree/master/assets)
+
+The big round one has a look feel of a wrinkly brain given its modular shape scrunched into space.
 
 Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves)
 
