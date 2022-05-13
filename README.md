@@ -160,7 +160,7 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 | PurgeSelfReferences | removes multigraph, returns number removed | O(n<sup>2</sup>) | O(1) | - | int |
 | FullConnectSet | complete undirected weighted connection for a set of Vertices to eachother | O(n<sup>2</sup>) | O(n) | List Vertex, int | LIST |
 | ConnectionsBetweenCount | count the number of related Vertices in a set | O(n<sup>2</sup>) | O(n) | List Vertex | int |
-| NondirectionalClusteringCoefficient | measures how connected a Vertex's neightobrs are to eachother | O(1) | O(1) | Vertex | int |
+| NondirectionalClusteringCoefficient | measures how connected a Vertex's neighbors are to eachother | O(1) | O(1) | Vertex | int |
 
 big O time and space does not include dependent functions, such as NondirectionalClusteringCoefficient simply:
 '''
