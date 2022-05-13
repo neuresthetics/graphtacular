@@ -163,9 +163,9 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 | NondirectionalClusteringCoefficient | measures how connected a Vertex's neighbors are to eachother | O(1) | O(1) | Vertex | int |
 
 big O time and space does not include dependent functions, such as NondirectionalClusteringCoefficient simply:
-'''
+```
 return decimal.Divide(ConnectionsBetweenCount(n), MaxConnections(n.Count()));
-'''
+```
 both of which have their own runtime complexity.
 
 ***
