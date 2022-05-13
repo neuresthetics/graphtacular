@@ -162,4 +162,10 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 | ConnectionsBetweenCount | count the number of related Vertices in a set | O(n<sup>2</sup>) | O(n) | List Vertex | int |
 | NondirectionalClusteringCoefficient | measures how connected a Vertex's neightobrs are to eachother | O(1) | O(1) | Vertex | int |
 
+big O time and space does not include dependent functions, such as NondirectionalClusteringCoefficient simply:
+'''
+return decimal.Divide(ConnectionsBetweenCount(n), MaxConnections(n.Count()));
+'''
+both of which have their own runtime complexity.
+
 ***
