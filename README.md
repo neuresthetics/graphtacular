@@ -5,9 +5,9 @@
 ![Whiteboard](https://github.com/jasonb315/graphtacular/blob/master/assets/WB00.jpg) <br>
 
 
-This Graph has Vertices which have Kernels which are given Strands.
+This Graph has Vertices that have Kernels which are given Strands.
 
-Strands passed into Kernels, which contain a reference to the Vertex that are inside.
+Strands passed into Kernels, which contain a reference to the Vertex that is inside.
 
 Vertices have references to the matrix they are inside.
 
@@ -66,7 +66,7 @@ public void Flower()
         }
 ```
 
-The strand passed to the Kernel, which parses it and calls logic on its shell Vertex:
+The strand is passed to the Kernel, which parses it and calls logic on its shell Vertex:
 
 ```
 switch (ss[0])
@@ -90,18 +90,18 @@ Kernels are used to generate pre-programmed motifs. The above strand passed to a
 ![Flower Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/FirstGephiCaptureFlower.JPG) <br>
 
 ## GEXF - save graph to file
-You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exporeted as [GEXF](https://github.com/neuresthetics/graphtacular/blob/master/Graphtacular/Graphtacular/Classes/Gexf.cs) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
+You can view saved [graphs](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves) which are exported as [GEXF](https://github.com/neuresthetics/graphtacular/blob/master/Graphtacular/Graphtacular/Classes/Gexf.cs) (Graph Exchange XML Format) for display in [Gephi](https://gephi.org/)
 
 ### Building clusters from the outside:
 
-Operations on sets of Vertices in clumps from the outside tends to produce a more geologcal or crystal shapes?
+Operations on sets of Vertices in clumps from the outside tend to produce more geological or crystal shapes.
 
-This is a logarithmic cluster with edges reflecting the repetative global split
+This is a logarithmic cluster with edges reflecting the repetitive global split
 
 ![Logarithmic Cluster](https://github.com/jasonb315/graphtacular/blob/master/assets/LogarithmicCluster.JPG) <br>
 ![Logarithmic Cluster Gephi](https://github.com/jasonb315/graphtacular/blob/master/assets/LogarithmicClusterGephi.JPG) <br>
 
-looks feel kind of like ice, inorganic?
+Does it feel kind of like ice, inorganic?
 
 ### Driving clusters from the inside:
 
@@ -113,7 +113,7 @@ look feel has more body, more life?
 
 Other pictures in [assets >>>](https://github.com/jasonb315/graphtacular/tree/master/assets)
 
-The big round one has a look feel of a wrinkly brain given its modular shape scrunched into space.
+The big round one has a look and feel of a wrinkly brain given its modular shape scrunched into space.
 
 Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/graphtacular/tree/master/Graphtacular/Graphtacular/Saves)
 
@@ -129,7 +129,7 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 | PrintVertices | console output | O(n) | O(n) | - | void |
 | PrintEdges | console output | O(n<sup>2</sup>) | O(n) | - | void |
 | RegisterKey | associates a Vertex ID to a MatrixKey | O(1) | O(1) | Vertex | void |
-| MatrixEntry | updates matrix with row and columb | O(n) | O(1) | Vertex | void |
+| MatrixEntry | updates matrix with row and column | O(n) | O(1) | Vertex | void |
 | AddStrandVertex | vertex addition | O(1) | O(1) | - | Vertex |
 | AddClusterVertex | vertex addition | O(1) | O(1) | - | Vertex |
 | DeleteVertex | Removes Vertex from matrix, keys, list, count | O(1) | O(1) | Vertex | - |
@@ -153,14 +153,14 @@ Additional graphs not pictured in [graphs >>>](https://github.com/jasonb315/grap
 | NeighborSet | direction agnostic neighbor list | O(1) | O(1) | Vertex | List Vertex |
 | IslandCount | nonconnected Vertex count | O(n) | O(1) | - | int |
 | IslandSet | nonconnected Vertex list | O(n) | O(n) | - | List Vertex |
-| NeighborsWithinK | collect refrence to all Vertices within K of a target | O(n<sup>3</sup>) | O(n) | Vertex, int | List Vertex |
+| NeighborsWithinK | collect reference to all Vertices within K of a target | O(n<sup>3</sup>) | O(n) | Vertex, int | List Vertex |
 | MaxConnections | calculate the max potential global undirected edges for a given number of Vertices | O(n) | O(1) | int | int |
 | IsSelfRefrence | check for edge to self | O(1) | O(1) | Vertex | bool |
 | PurgeSelfRefrence | removes edge to self | O(n) | O(n) | Vertex | void |
 | PurgeSelfReferences | removes multigraph, returns number removed | O(n<sup>2</sup>) | O(1) | - | int |
-| FullConnectSet | complete undirected weighted connection for a set of Vertices to eachother | O(n<sup>2</sup>) | O(n) | List Vertex, int | LIST |
+| FullConnectSet | complete undirected weighted connection for a set of Vertices to each other | O(n<sup>2</sup>) | O(n) | List Vertex, int | LIST |
 | ConnectionsBetweenCount | count the number of related Vertices in a set | O(n<sup>2</sup>) | O(n) | List Vertex | int |
-| NondirectionalClusteringCoefficient | measures how connected a Vertex's neighbors are to eachother | O(1) | O(1) | Vertex | int |
+| NondirectionalClusteringCoefficient | measures how connected a Vertex's neighbors are to each other | O(1) | O(1) | Vertex | int |
 
 big O time and space does not include dependent functions, such as NondirectionalClusteringCoefficient simply:
 ```
