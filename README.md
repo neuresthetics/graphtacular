@@ -5,7 +5,8 @@
 ![Whiteboard](https://github.com/jasonb315/graphtacular/blob/master/assets/WB00.jpg) <br>
 
 
-This Graph has Vertices that have Kernels which are given Strands.
+
+This Graph has Vertices that have Kernels which are given Strands..
 
 Strands passed into Kernels, which contain a reference to the Vertex that is inside.
 
@@ -166,6 +167,6 @@ big O time and space does not include dependent functions, such as Nondirectiona
 ```
 return decimal.Divide(ConnectionsBetweenCount(n), MaxConnections(n.Count()));
 ```
-both of which have their own runtime complexity.
+both of which have their own runtime complexity..
 
 ***
