@@ -4,8 +4,6 @@
 
 ![Whiteboard](https://github.com/jasonb315/graphtacular/blob/master/assets/WB00.jpg) <br>
 
-
-
 This Graph has Vertices that have Kernels which are given Strands..
 
 Strands passed into Kernels, which contain a reference to the Vertex that is inside.
